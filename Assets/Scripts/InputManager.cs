@@ -3,18 +3,18 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
-public class JPInputManager : MonoBehaviour
+public class InputManager : MonoBehaviour
 {
-    private JPPlayerInput playerInput;
-    private JPPlayerInput.OnFootActions onFoot;
-    private JPPlayerMotor motor;
-    private JPPlayerLook look;
+    private PlayerInput playerInput;
+    private PlayerInput.OnFootActions onFoot;
+    private PlayerMotor motor;
+    private PlayerLook look;
     void Awake()
     {
-        playerInput = new JPPlayerInput(); 
+        playerInput = new PlayerInput(); 
         onFoot = playerInput.OnFoot;
-        motor = GetComponent<JPPlayerMotor>();
-        look = GetComponent<JPPlayerLook>();
+        motor = GetComponent<PlayerMotor>();
+        look = GetComponent<PlayerLook>();
         onFoot.Jump.performed += ctx => motor.Jump();
     }
 

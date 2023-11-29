@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class JPPlayerLook : MonoBehaviour
+public class PlayerLook : MonoBehaviour
 {
     public Camera cam;
     private float xRotation = 0f;

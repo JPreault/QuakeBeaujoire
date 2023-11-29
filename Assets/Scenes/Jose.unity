@@ -906,6 +906,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2d5a457d7931ad544a0e81c1945b1a1d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  controller: {fileID: 0}
+  playerVelocity: {x: 0, y: 0, z: 0}
+  isGrounded: 0
   speed: 5
   gravity: -9.8
   jumpHeight: 1.5
@@ -922,6 +925,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cam: {fileID: 951469519}
+  xRotation: 0
   xSensitivity: 12
   ySensitivity: 12
 --- !u!114 &2106802637
@@ -936,6 +940,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 68b8b532ee89fa9418b115e1eaf62bb4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  motor: {fileID: 0}
+  look: {fileID: 0}
 --- !u!1001 &6393014834711821836
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -990,7 +996,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8691470260122526053, guid: a1ce87d02dc8a914ab515dc9577291b3, type: 3}
       propertyPath: m_Name
-      value: JPPlayer
+      value: Player
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

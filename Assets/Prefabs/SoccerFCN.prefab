@@ -118,8 +118,6 @@ GameObject:
   m_Component:
   - component: {fileID: 2421909602659996839}
   - component: {fileID: 8023032088969803496}
-  - component: {fileID: 1696289473755565363}
-  - component: {fileID: 3216323379653784536}
   - component: {fileID: 7759975208059090630}
   m_Layer: 0
   m_Name: Name
@@ -189,22 +187,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!33 &1696289473755565363
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 682796925481901227}
-  m_Mesh: {fileID: 0}
---- !u!222 &3216323379653784536
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 682796925481901227}
-  m_CullTransparentMesh: 0
 --- !u!114 &7759975208059090630
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -409,7 +391,7 @@ Transform:
   m_GameObject: {fileID: 1449399398110508173}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0.91, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -623,7 +605,7 @@ GameObject:
   - component: {fileID: 5857124216500540006}
   m_Layer: 0
   m_Name: SoccerFCN
-  m_TagString: Untagged
+  m_TagString: Soccer
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -637,7 +619,7 @@ Transform:
   m_GameObject: {fileID: 4124334925945253410}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -8.494261, y: 1.071, z: -1.7121496}
+  m_LocalPosition: {x: -20.48547, y: 0.12, z: 30.527565}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -1222,8 +1204,6 @@ GameObject:
   m_Component:
   - component: {fileID: 8467487277758550945}
   - component: {fileID: 5980787332517718207}
-  - component: {fileID: 5677384997752107248}
-  - component: {fileID: 2253326171226760561}
   - component: {fileID: 5883756668426261936}
   m_Layer: 0
   m_Name: Number
@@ -1293,22 +1273,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!33 &5677384997752107248
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6323278381640886268}
-  m_Mesh: {fileID: 0}
---- !u!222 &2253326171226760561
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6323278381640886268}
-  m_CullTransparentMesh: 0
 --- !u!114 &5883756668426261936
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -10,6 +10,7 @@ public class GameOver : MonoBehaviour
     public float timeRemaining = 120;
     public bool timerIsRunning = false;
     public TextMeshProUGUI timeText;
+    public TextMeshProUGUI aliveText;
     private void Start()
     {
         // Starts the timer automatically
@@ -31,6 +32,7 @@ public class GameOver : MonoBehaviour
             {
                 timeRemaining -= Time.deltaTime;
                 DisplayTime(timeRemaining);
+                aliveText.text = "Nantais restant : " + go.Length;
             }
             else
             {

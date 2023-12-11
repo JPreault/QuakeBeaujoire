@@ -26,5 +26,11 @@ public class EnnemiTouch : MonoBehaviour
             //Le gameObject est ensuite détruit après avoir été remplacer par un tank cassé.
             Destroy(gameObject);
         }
+
+        if(other.gameObject.tag == "Soccer")
+        {
+            //Le gameObject est ensuite détruit après avoir été remplacer par un tank cassé.
+            Destroy(other.gameObject);
+        }
     }
 }

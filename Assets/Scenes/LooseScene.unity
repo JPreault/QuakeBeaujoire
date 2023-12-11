@@ -546,7 +546,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Commande : \nZ/S - Avancer\nQ/D - Rotation\nE/clique gauche - Tirer"
+  m_Text: "Commande : \nZ/Q/S/D - D\xE9placer\nE/clique gauche - Tirer"
 --- !u!222 &783421103
 CanvasRenderer:
   m_ObjectHideFlags: 0

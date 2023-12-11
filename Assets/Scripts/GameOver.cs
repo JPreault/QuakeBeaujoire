@@ -25,7 +25,7 @@ public class GameOver : MonoBehaviour
             Scene currentScene = SceneManager.GetActiveScene ();
             if(currentScene.name == "SampleScene" && go.Length == 0){
                 //Loose
-                SceneManager.LoadScene("MenuPrincipal");
+                SceneManager.LoadScene("LooseScene");
             }
 
             if (timeRemaining > 0)
@@ -38,7 +38,7 @@ public class GameOver : MonoBehaviour
                 timeRemaining = 0;
                 timerIsRunning = false;
                 //Win
-                SceneManager.LoadScene("MenuPrincipal");
+                SceneManager.LoadScene("WinScene");
             }
         }
     }

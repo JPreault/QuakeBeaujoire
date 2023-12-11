@@ -10208,8 +10208,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6855152233322548505}
-  - component: {fileID: 4499118048781390114}
-  - component: {fileID: 8014344248388076433}
   m_Layer: 0
   m_Name: Stade
   m_TagString: Untagged
@@ -10238,37 +10236,6 @@ Transform:
   - {fileID: 2755796256142983173}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &4499118048781390114
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6082590745286072227}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d1678825b4dcf1e499f3d0509f932b0b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  theEnnemy: {fileID: 7901710275570611833, guid: 432f910545f0983488de06ad1c73a78a, type: 3}
-  xPos: 0
-  zPos: 0
-  ennemyCount: 0
---- !u!114 &8014344248388076433
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6082590745286072227}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 81a8b092bb9f99943a98ee8e2cae5f75, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  timeRemaining: 10
-  timerIsRunning: 0
-  timeText: {fileID: 0}
 --- !u!1 &6097585086091344664
 GameObject:
   m_ObjectHideFlags: 0

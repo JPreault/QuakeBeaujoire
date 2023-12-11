@@ -502,9 +502,9 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 871657073}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -412, y: 262}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 10, y: -38}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &971888817
@@ -944,7 +944,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d1678825b4dcf1e499f3d0509f932b0b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  theEnnemy: {fileID: 0}
+  theEnnemy: {fileID: 7901710275570611833, guid: 432f910545f0983488de06ad1c73a78a, type: 3}
   xPos: 0
   zPos: 0
   ennemyCount: 0
